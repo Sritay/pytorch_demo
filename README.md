@@ -10,7 +10,8 @@ This repo contains two minimal PyTorch examples that show:
 - `linear_regression_demo.py` — fits a straight line `y = 2.5x - 1` from noisy data
 - `nonlinear_sine_demo.py` — fits a noisy `sin(x)` curve with a small MLP
 
-## Setup
+## Run
 ```bash
-pip install -r requirements.txt
+python linear_regression_demo.py
+python nonlinear_sine_demo.py
 
